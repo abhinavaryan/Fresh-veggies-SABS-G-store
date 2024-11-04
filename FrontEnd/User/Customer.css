@@ -1,0 +1,161 @@
+
+header{
+  /* display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+   /* max-width: 1000px;  */
+  /* margin: 0 auto; */
+  /* width: 100%;
+  color: rgb(13,110,253);
+  font-size: larger; */ 
+  background-color: #00a100;
+  height: 20%;
+  
+}
+.logo1{
+  background-color: #00a100;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+   /* max-width: 1000px;  */
+  /* margin: 0 auto; */
+  width: 100%;
+  color: rgb(13,110,253);
+  font-size: larger;
+  background-color: #00a100;
+  background-color: #00a100;
+  height: 20%;
+  
+}
+.logo img {
+  /* max-width: 100%; */
+  width: 40%;
+  margin-right:20%;
+  margin-bottom: 0%;
+  background-color:#00a100;
+}
+  
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin-top: auto;
+    /* padding: 20px; */
+  }
+  .customerForm{
+    margin-top:-10%;
+  }
+  form {
+   
+     max-width: 34%; 
+    margin: 2px auto;
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-left: 39px;
+    padding-right: 52px;
+    padding-bottom: 45px;
+    border-radius: 19px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+  
+  .success {
+    color: green;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+  
+  footer {
+    background-color: rgb(26,35,47);
+      
+    
+  }
+  .row{
+   margin-left:18%;
+  
+  }
+  .col-md-4{
+    margin-left:-17%;
+   
+  }
+  
+  footer h4 {
+    color:white;
+    font-size: 20px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+  }
+  
+  footer p {
+    color: white;
+    
+    margin-bottom:-1% ;
+  }
+  
+  footer ul li {
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  footer ul li i {
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  footer ul.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer ul.social-links li a {
+    color: white;
+    font-size: 18px;
+  }
+  
+  footer ul.social-links li a:hover {
+    color: #e83e8c;
+  }
+  
+  
+  
